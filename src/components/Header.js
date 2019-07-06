@@ -5,7 +5,6 @@ class Header extends React.Component{
         return(
         <div className="jumbotron text-center">
             <h1>Poduval Hills</h1>
-            <h4>A Destination on the way to Ooty</h4>
         </div>
         );
     }
