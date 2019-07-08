@@ -13,7 +13,7 @@ class Maps extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6"><br/><br/><br/><br/><br/><br/><br/>
+                    <div className="col-md-6 justify-content-center">
                         <h2 className="text-center">Poduval Hills</h2>
                         <h2 className="text-center">Connect to the Nature</h2>
                     </div>
