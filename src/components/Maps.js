@@ -9,13 +9,12 @@ class Maps extends React.Component{
                     <div className="col-md-6">
                         <div class="mapouter">
                             <div class="gmap_canvas">
-                                <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=10%C2%B021'39.3%22N%2077%C2%B046'10.5%22E&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=10%C2%B021'39.3%22N%2077%C2%B046'10.5%22E&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6"><br/><br/><br/><br/><br/><br/><br/>
                         <h2 className="text-center">Poduval Hills</h2>
-                        <p className="text-center">Well layed out roads from Foot Hills to Poduval Hills</p>
                         <h2 className="text-center">Connect to the Nature</h2>
                     </div>
                 </div>
