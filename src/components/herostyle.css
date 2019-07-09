@@ -18,9 +18,36 @@
     -webkit-transform:scale(1.3);
   transform:scale(1.3);
   }
-  .carousel-control {
-  height: 100%;
-  margin-top: 0px;
-  border-radius: 0;
-  border: 0;
+  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+  img{
+    width: 300;
+    height: 300;
   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+  img{
+    width: 300;
+    height: 300;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+  img{
+    width: 400;
+    height: 400;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px){
+  img{
+    width: 500;
+    height: 500;
+  }
+}

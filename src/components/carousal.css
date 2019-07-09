@@ -1,5 +1,41 @@
-.carousal-caption{
-        background-color: black ;
-        opacity: 0.9; 
-        width: 100%;
+
+.carousel-caption{
+        background-color: #2C2C2C;
+        opacity: 0.6;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        left: 0%;
+        right: 0%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+        img{
+                width: 700;
+                height: 350;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+        img{
+                width: 850;
+                height: 400;
+        }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+        img{
+                width: 1000;
+                height: 550;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px){
+        img{
+          width: 1200;
+          height: 650;
+        }
+      }

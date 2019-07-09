@@ -6,8 +6,8 @@ class Hero extends React.Component{
         return(
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 hotspot-wrapper" style={{overflow: 'hidden'}} >
-                        <img src={require('./media/heroalt.jpg')}  class="img-fluid" alt="hero" />
+                    <div className="col-md-6 hotspot-wrapper" style={{overflow: 'hidden'}} ><br /> <br />
+                        <img src={require('./media/heroalt.jpg')} className="img-fluid" alt="hero" />
                     </div>
                     <div className="col-md-6">
                         <h2 className="text-center">Poduval Hills</h2><br/>
