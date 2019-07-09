@@ -11,7 +11,7 @@ class Footer extends React.Component{
                         <div className="col-md-12 text-center">
                             <h5>Contact</h5>
                             <a href="mailto:sureshchandramenon@gmail.com" className="mail"><br /><img src={require('./media/gmail.svg')} aria-hidden="true" width="20" height="20" /></a> Gmail
-                            <br/><br /><a href="https://www.facebook.com/suresh.menon" className="facebook"><img src={require('./media/facebook.svg')} aria-hidden="true" width="20" height="20" /></a> Facebook
+                            <br/><br /><a href="#" className="facebook"><img src={require('./media/facebook.svg')} aria-hidden="true" width="20" height="20" /></a> Facebook
                             <br /><br />
                             <small><center> &copy; 2019 </center></small>
                         </div>

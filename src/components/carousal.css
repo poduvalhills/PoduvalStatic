@@ -1,4 +1,5 @@
-.carousel-item{
-    height: 300px;
-} 
-
+.carousal-caption{
+        background-color: black ;
+        opacity: 0.9; 
+        width: 100%;
+}
