@@ -1,16 +1,26 @@
 import React from 'react';
-import './carousal.css';
+import './gallery.css';
 import { Carousel, Row } from 'react-bootstrap';
 //import { Image } from 'react-bootstrap';
 
 
-class Carousal extends React.Component{
+class Gallery extends React.Component{
     render(){
         return(
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <Carousel>
+                        <Carousel.Item>
+                                <img
+                                  className="d-block w-100"
+                                  src={require('./media/gate.jpg')}
+                                  alt="First slide"                                 
+                                />
+                                <Carousel.Caption>
+                                  <p>Gateway to a beautiful paradise</p>
+                                </Carousel.Caption>
+                            </Carousel.Item>
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
@@ -154,4 +164,4 @@ class Carousal extends React.Component{
     }
 }
 
-export default Carousal;
+export default Gallery;

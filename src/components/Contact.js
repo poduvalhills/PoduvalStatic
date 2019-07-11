@@ -1,7 +1,7 @@
 import React from 'react';
-//import './footer.css';
+//import './contact.css';
 
-class Footer extends React.Component{
+class Contact extends React.Component{
     render(){
         return(
             <footer>
@@ -21,4 +21,4 @@ class Footer extends React.Component{
     }
 }
 
-export default Footer;
+export default Contact;

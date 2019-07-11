@@ -1,20 +1,29 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Carousal from './components/Carousal';
+import Gallery from './components/Gallery';
 import Maps from './components/Maps';
-import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Nav from './components/Nav';
+import Home from './components/Home';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 class App extends React.Component{
   render(){
     return(
-      <div className="root">
+      <Router>
+        <div className="root">
         <Header />
-        <Hero />
-        <Carousal />      
-        <Maps />
-        <Footer />
-      </div>
+        <Nav /><br />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={Hero} /> 
+            <Route path="/gallery" component={Gallery} />      
+            <Route path="/map" component={Maps} />
+          </Switch>
+          <Contact />
+        </div>
+      </Router>
     );
   }
 }
