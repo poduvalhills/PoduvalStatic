@@ -7,7 +7,7 @@ class Nav extends React.Component{
     render(){
         return(   
             <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-12 text-center">
                     <div className="topnav" id="myTopnav">
                         <nav>
                             <NavLink exact to="/" className="active">Home</NavLink>
