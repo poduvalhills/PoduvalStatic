@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.css';
-import {Link} from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 class Nav extends React.Component{
     
@@ -10,11 +10,11 @@ class Nav extends React.Component{
                 <div className="col-md-12">
                     <div className="topnav" id="myTopnav">
                         <nav>
-                            <a href="/" className="active">Home</a>
-                            <a href="/about">About</a>
-                            <a href="/gallery">Gallery</a>
-                            <a href="/maps">Maps</a>
-                            <a href="/contact">Contact</a>
+                            <NavLink exact to="/" className="active">Home</NavLink>
+                            <NavLink exact to="/about">About</NavLink>
+                            <NavLink exact to="/gallery">Gallery</NavLink>                            
+                            <NavLink exact to="/maps">Maps</NavLink>
+                            <NavLink exact to="/contact">Contact</NavLink>
                         </nav>  
                     </div>
                 </div>
