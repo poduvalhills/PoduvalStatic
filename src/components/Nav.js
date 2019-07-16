@@ -15,6 +15,7 @@ class Nav extends React.Component{
                             <NavLink exact to="/gallery">Gallery</NavLink>                            
                             <NavLink exact to="/maps">Maps</NavLink>
                             <NavLink exact to="/contact">Contact</NavLink>
+                            <NavLink exact to="/amenities">Amenities</NavLink>
                         </nav>  
                     </div>
                 </div>

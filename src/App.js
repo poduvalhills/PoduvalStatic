@@ -6,13 +6,14 @@ import Maps from './components/Maps';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
 import Home from './components/Home';
+import Amenities from './components/Amenities';
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 class App extends React.Component{
   render(){
     return(
       <Router>
-        <div className="root">
+        <div className="container-fluid">
         <Header />
         <Nav /><br />
           <Switch>
@@ -20,6 +21,7 @@ class App extends React.Component{
             <Route exact path="/about" component={Hero} /> 
             <Route exact path="/gallery" component={Gallery} />      
             <Route exact path="/maps" component={Maps} />
+            <Route exact path="/amenities" component={Amenities} />
           </Switch>
           <Contact />
         </div>

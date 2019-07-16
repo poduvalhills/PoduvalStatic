@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from './Hero'; 
 import Maps from './Maps'; 
 import Gallery from './Gallery';
-
+import Amenities from './Amenities';
 
 class Home extends React.Component{
     render(){
@@ -11,6 +11,7 @@ class Home extends React.Component{
                 <Hero />
                 <Gallery />
                 <Maps />
+                <Amenities />
             </div>
         );    
     }
