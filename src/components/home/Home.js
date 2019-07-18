@@ -1,8 +1,9 @@
 import React from 'react'; 
-import Hero from './Hero'; 
-import Maps from './Maps'; 
-import Gallery from './Gallery';
-import Amenities from './Amenities';
+import Hero from '../hero/Hero';
+import Gallery from '../gallery/Gallery';
+import Maps from '../maps/Maps';
+import Amenities from '../amenities/Amenities';
+import Plot from '../plot/Plot';
 
 class Home extends React.Component{
     render(){
@@ -12,6 +13,7 @@ class Home extends React.Component{
                 <Gallery />
                 <Maps />
                 <Amenities />
+                <Plot />
             </div>
         );    
     }

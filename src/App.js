@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Gallery from './components/Gallery';
-import Maps from './components/Maps';
-import Contact from './components/Contact';
-import Nav from './components/Nav';
-import Home from './components/Home';
-import Amenities from './components/Amenities';
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import Gallery from './components/gallery/Gallery';
+import Maps from './components/maps/Maps';
+import Contact from './components/contact/Contact';
+import Navigation from './components/navigation/Navigation';
+import Home from './components/home/Home';
+import Amenities from './components/amenities/Amenities';
+import Plot from './components/plot/Plot';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component{
   render(){
@@ -15,13 +16,14 @@ class App extends React.Component{
       <Router>
         <div className="container-fluid">
         <Header />
-        <Nav /><br />
+        <Navigation /><br />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={Hero} /> 
             <Route exact path="/gallery" component={Gallery} />      
             <Route exact path="/maps" component={Maps} />
             <Route exact path="/amenities" component={Amenities} />
+            <Route exact path="/plot" component={Plot} />
           </Switch>
           <Contact />
         </div>

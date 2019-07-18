@@ -1,5 +1,6 @@
 import React from 'react';
 //import './contact.css';
+import { MdPhoneInTalk } from "react-icons/md";
 
 class Contact extends React.Component{
     render(){
@@ -9,9 +10,7 @@ class Contact extends React.Component{
                     <div className="row">
                         <div className="col-md-12 text-center">
                             <h5>Contact</h5>
-                            <a href="mailto:sureshchandramenon@gmail.com" className="mail"><br /><img src={require('./media/gmail.svg')} aria-hidden="true" width="20px" height="20px"/></a> Gmail
-                            <br/><br /><a href="#" className="facebook"><img src={require('./media/facebook.svg')} aria-hidden="true"width="20px" height="20px" /></a> Facebook
-                            <br /><br />
+                            <h6>Suresh Chandra Menon - <MdPhoneInTalk /> 9884126646 </h6>   
                             <small><center> &copy; 2019 </center></small>
                         </div>
                     </div>

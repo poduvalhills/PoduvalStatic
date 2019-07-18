@@ -1,20 +1,20 @@
 import React from 'react';
 import './gallery.css';
-import { Carousel, Row } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 //import { Image } from 'react-bootstrap';
 
 
 class Gallery extends React.Component{
     render(){
         return(
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12">
                         <Carousel>
                         <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/gate.jpg')}
+                                  src={require('../media/gates.jpg')}
                                   alt="First slide"                                 
                                 />
                                 <Carousel.Caption>
@@ -24,7 +24,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/entrance.jpg')}
+                                  src={require('../media/entrance.jpg')}
                                   alt="First slide"                                 
                                 />
                                 <Carousel.Caption>
@@ -34,7 +34,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/parking.jpg')}
+                                  src={require('../media/parking.jpg')}
                                   alt="Third slide"
                                 />
                                 <Carousel.Caption>
@@ -44,7 +44,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/view.jpg')}
+                                  src={require('../media/view.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -54,7 +54,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/clouds.jpg')}
+                                  src={require('../media/clouds.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -64,7 +64,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/brook.jpg')}
+                                  src={require('../media/brook.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -74,7 +74,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/rocks.jpg')}
+                                  src={require('../media/rocks.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -84,7 +84,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/pool.jpg')}
+                                  src={require('../media/pool.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -94,7 +94,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/water.jpg')}
+                                  src={require('../media/water.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -104,7 +104,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/area.jpg')}
+                                  src={require('../media/area.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -114,7 +114,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/mist.jpg')}
+                                  src={require('../media/mist.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -124,7 +124,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/visit.jpg')}
+                                  src={require('../media/visit.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -134,7 +134,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/breakfast.jpg')}
+                                  src={require('../media/breakfast.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
@@ -144,7 +144,7 @@ class Gallery extends React.Component{
                             <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('./media/flower.jpg')}
+                                  src={require('../media/flower.jpg')}
                                   alt="Third slide"
                                 />
                               <Carousel.Caption>
