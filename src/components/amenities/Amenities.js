@@ -5,7 +5,7 @@ class Amenities extends React.Component{
     render(){
         return(
             <div className="container">
-                <div clssName="row">
+                <div className="row">
                     <CardDeck>
                         <div className="col-md-3">
                             <Card>

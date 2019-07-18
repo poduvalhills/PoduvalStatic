@@ -8,9 +8,9 @@ class Maps extends React.Component{
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 img-fluid">
-                        <div class="mapouter">
-                            <div class="gmap_canvas">
-                                <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=10%C2%B021'39.3%22N%2077%C2%B046'10.5%22E&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <div className="mapouter">
+                            <div className="gmap_canvas">
+                                <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=10%C2%B021'39.3%22N%2077%C2%B046'10.5%22E&t=&z=9&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                             </div>
                         </div>
                     </div>
