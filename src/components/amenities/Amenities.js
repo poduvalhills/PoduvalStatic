@@ -6,7 +6,7 @@ class Amenities extends React.Component{
         return(
             <div className="container">
                 <div className="row">
-                    <CardDeck>
+
                         <div className="col-md-3">
                             <Card>
                                 <Card.Img variant="top" src={require('../media/amenities.jpg')} width="150" height="175"/>
@@ -32,7 +32,7 @@ class Amenities extends React.Component{
                         <div className="col-md-6" >
                             <img src={require('../media/filler.jpg')} className="img-fluid" alt="hero" />
                         </div>
-                    </CardDeck>
+                    
                     
                 </div> <hr />   
             </div>     

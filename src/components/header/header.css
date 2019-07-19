@@ -50,7 +50,7 @@ h1{
     }
     .centered {
         position: absolute;
-        top: 50%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
@@ -64,7 +64,7 @@ h1{
     }
     .centered {
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;

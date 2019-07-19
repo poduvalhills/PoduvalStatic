@@ -30,7 +30,7 @@ class Plot extends React.Component{
                         </figure>*/}
                         <InnerImageZoom src={require('../media/plot.jpg')} />
                     </div>
-                    <div className="col-md-6"><br /><br /><br />
+                    <div className="col-md-6"><br />
                         <h3 className="text-center">Plot Description</h3><br />
                         <ul style={{listStyleType:"none"}}>
                             <li><WiMeteor />The total area of the Poduval hills is almost 100 Acres</li><br />

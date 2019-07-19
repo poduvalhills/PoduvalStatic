@@ -14,7 +14,7 @@ class App extends React.Component{
   render(){
     return(
       <Router>
-        <div className="container-fluid">
+        <div className="container-fluid"> 
         <Header />
         <Navigation /><br />
           <Switch>

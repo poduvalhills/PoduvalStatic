@@ -14,18 +14,18 @@ class Maps extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 justify-content-center"><br /><br /><br />
+                    <div className="col-md-6 justify-content-center"><br />
                         <Card>
                           <Card.Header as="h5" className="text-center">Access the Nature</Card.Header>
                           <Card.Body>
                             <Card.Title className="text-center">Roadways</Card.Title>
                             <Card.Text>
-                              41 Kms from Dindigul via Dharmathupatti and the Uphill claim is ony 14 Kms
-                            </Card.Text><br />
+                              41 Kms from Dindigul via Dharmathupatti and the Uphill climb is ony 14 Kms
+                            </Card.Text>
                             <Card.Title className="text-center">Railways</Card.Title>
                             <Card.Text>
                               The Closest Railway station is in Dindigul which has direct trains from Chennai
-                            </Card.Text><br />
+                            </Card.Text>
                             <Card.Title className="text-center">Airways</Card.Title>
                             <Card.Text>
                               Madurai International Airport is the closest airport which is at 2 hrs drive away
