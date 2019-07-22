@@ -1,6 +1,7 @@
 import React from 'react';
 import InnerImageZoom from 'react-inner-image-zoom';
 import { WiMeteor } from "react-icons/wi";
+import Slide from 'react-reveal/Slide';
 //import './plot.css';
 
 //`url(${src})`
@@ -23,6 +24,7 @@ class Plot extends React.Component{
     render(){
         return(  
             <div className="container">
+                <Slide left>
                 <div className="row">
                     <div className="col-md-6 text-center">
                         {/*<figure onMouseMove={this.handleMouseMove} style={this.state}>
@@ -43,6 +45,7 @@ class Plot extends React.Component{
                         </ul>
                     </div>
                 </div><hr/>
+                </Slide>
             </div>
         );
     }

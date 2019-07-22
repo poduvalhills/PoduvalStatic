@@ -1,11 +1,13 @@
 import React from 'react';
 import './herostyle.css';
 import { WiMeteor } from "react-icons/wi";
+import Bounce from 'react-reveal/Bounce';
 
 class Hero extends React.Component{
     render(){
         return(
             <div className="container">
+                <Bounce right>
                 <div className="row">
                     <div className="col-md-6 hotspot-wrapper" style={{overflow: 'hidden'}} ><br /> <br />
                         <img src={require('../media/heroalt.jpg')} className="img-fluid" alt="hero" />
@@ -28,6 +30,7 @@ class Hero extends React.Component{
                         <hr/>
                     </div>
                 </div>
+                </Bounce>
             </div>
         );
     }

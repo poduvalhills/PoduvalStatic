@@ -8,15 +8,18 @@ import Navigation from './components/navigation/Navigation';
 import Home from './components/home/Home';
 import Amenities from './components/amenities/Amenities';
 import Plot from './components/plot/Plot';
+//import Test from './components/test/Test';
+import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component{
   render(){
     return(
       <Router>
-        <div className="container-fluid"> 
-        <Header />
-        <Navigation /><br />
+        <div className="container-fluid">  
+        { /* <Header /> */ }
+        <Navigation />
+        <br />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={Hero} /> 
@@ -24,6 +27,7 @@ class App extends React.Component{
             <Route exact path="/maps" component={Maps} />
             <Route exact path="/amenities" component={Amenities} />
             <Route exact path="/plot" component={Plot} />
+            { /*<Route exact path="/test" component={Test} />*/ }
           </Switch>
           <Contact />
         </div>

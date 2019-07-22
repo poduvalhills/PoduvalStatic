@@ -1,19 +1,23 @@
 import React from 'react';
 //import './contact.css';
 import { MdPhoneInTalk } from "react-icons/md";
+import Jump from 'react-reveal/Jump';
 
 class Contact extends React.Component{
     render(){
         return(
             <footer>
                 <div className="container">
+                    <Jump>
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h5>Contact</h5>
-                            <h6>Suresh Chandra Menon - <MdPhoneInTalk /> 9884126646 </h6>   
+                            <h5>Contact</h5><br/>
+                            <h6>Poduval - <MdPhoneInTalk /> 9884478888 </h6> 
+                            <h6>Suresh Chandra Menon - <MdPhoneInTalk /> 9884126646 </h6><br/>   
                             <small><center> &copy; 2019 </center></small>
                         </div>
                     </div>
+                    </Jump>
                 </div>
             </footer>
         );

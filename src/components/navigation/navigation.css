@@ -4,8 +4,11 @@
   background-color: #333;
   overflow: hidden;
   width: 100%;
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0.5;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -25,7 +28,6 @@
 
 /* Add an active class to highlight the current page */
 .topnav NavLink.active {
-  background-color: #328002;
   color: white;
 }
 
@@ -34,10 +36,15 @@
   display: none;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  h1{
+    margin-top: 150px;
   }
 }
 
@@ -52,5 +59,8 @@
     float: none;
     display: block;
     text-align: left;
+  }
+  h1{
+    margin-top: 150px;
   }
 }

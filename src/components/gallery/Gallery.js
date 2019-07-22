@@ -2,12 +2,14 @@ import React from 'react';
 import './gallery.css';
 import { Carousel } from 'react-bootstrap';
 //import { Image } from 'react-bootstrap';
+import Zoom from 'react-reveal/Zoom';
 
 
 class Gallery extends React.Component{
     render(){
         return(
             <div className="container-fluid">
+              <Zoom right>
                 <div className="row">
                     <div className="col-md-12">
                         <Carousel>
@@ -159,6 +161,7 @@ class Gallery extends React.Component{
                         <hr/>
                     </div>
                 </div>
+                </Zoom>
             </div>
         );
     }

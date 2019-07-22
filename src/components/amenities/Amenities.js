@@ -1,12 +1,13 @@
 import React from 'react';
 import {Card, CardDeck } from 'react-bootstrap';
+import Flip from 'react-reveal/Flip';
 
 class Amenities extends React.Component{
     render(){
         return(
-            <div className="container">
+            <div id="amenities" className="container">
                 <div className="row">
-
+                    <Flip left>
                         <div className="col-md-3">
                             <Card>
                                 <Card.Img variant="top" src={require('../media/amenities.jpg')} width="150" height="175"/>
@@ -32,8 +33,7 @@ class Amenities extends React.Component{
                         <div className="col-md-6" >
                             <img src={require('../media/filler.jpg')} className="img-fluid" alt="hero" />
                         </div>
-                    
-                    
+                    </Flip>
                 </div> <hr />   
             </div>     
         );

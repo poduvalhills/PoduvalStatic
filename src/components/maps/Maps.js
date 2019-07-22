@@ -1,11 +1,13 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import './maps.css';
+import Bounce from 'react-reveal/Bounce';
 
 class Maps extends React.Component{
     render(){
         return(
             <div className="container">
+                <Bounce left>
                 <div className="row">
                     <div className="col-md-6 img-fluid">
                         <div className="mapouter">
@@ -39,6 +41,7 @@ class Maps extends React.Component{
                         <hr/>
                     </div>
                 </div>
+                </Bounce>
             </div>
         );
     }
