@@ -16,8 +16,8 @@ class Gallery extends React.Component{
                         <Carousel.Item>
                                 <img
                                   className="d-block w-100"
-                                  src={require('../media/gates.jpg')}
-                                  alt="First slide"                                 
+                                  src={require('../media/mercgate.jpg')}
+                                  alt="First slide"                               
                                 />
                                 <Carousel.Caption>
                                   <p>Gateway to a beautiful paradise</p>
@@ -27,7 +27,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/entrance.jpg')}
-                                  alt="First slide"                                 
+                                  alt="Second slide"                                 
                                 />
                                 <Carousel.Caption>
                                   <p>The Entrance to Poduval Hills Natural and Beautiful</p>
@@ -47,7 +47,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/view.jpg')}
-                                  alt="Third slide"
+                                  alt="Fourth slide"
                                 />
                               <Carousel.Caption>
                                     <p>The amazing view from Poduval Hills, across the valley</p>
@@ -57,7 +57,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/clouds.jpg')}
-                                  alt="Third slide"
+                                  alt="Fifth slide"
                                 />
                               <Carousel.Caption>
                                     <p>Every moment a new dance from the moist clouds</p>
@@ -67,7 +67,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/brook.jpg')}
-                                  alt="Third slide"
+                                  alt="Sixth slide"
                                 />
                               <Carousel.Caption>
                                     <p>A Gurgling steam runs through the property.</p>
@@ -77,7 +77,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/rocks.jpg')}
-                                  alt="Third slide"
+                                  alt="Seventh slide"
                                 />
                               <Carousel.Caption>
                                     <p>Through rocks and trees the music plays</p>
@@ -87,7 +87,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/pool.jpg')}
-                                  alt="Third slide"
+                                  alt="Eighth slide"
                                 />
                               <Carousel.Caption>
                                     <p>The stream has its own natural swimming pool</p>
@@ -97,7 +97,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/water.jpg')}
-                                  alt="Third slide"
+                                  alt="Nineth slide"
                                 />
                               <Carousel.Caption>
                                     <p>Crystal clear water in the midst of trees</p>
@@ -107,7 +107,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/area.jpg')}
-                                  alt="Third slide"
+                                  alt="Tenth slide"
                                 />
                               <Carousel.Caption>
                                     <p>A lovely area for one to enjoy a Book, soak in Nature</p>
@@ -117,7 +117,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/mist.jpg')}
-                                  alt="Third slide"
+                                  alt="Eleventh slide"
                                 />
                               <Carousel.Caption>
                                     <p>Long walks through the mist laden trees</p>
@@ -127,7 +127,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/visit.jpg')}
-                                  alt="Third slide"
+                                  alt="Twelveth slide"
                                 />
                               <Carousel.Caption>
                                     <p>Amazing landscape when the clouds come to visit</p>
@@ -137,7 +137,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/breakfast.jpg')}
-                                  alt="Third slide"
+                                  alt="Thirteenth slide"
                                 />
                               <Carousel.Caption>
                                     <p>Breakfast on these rocks amidst the chirping of birds</p>
@@ -147,7 +147,7 @@ class Gallery extends React.Component{
                                 <img
                                   className="d-block w-100"
                                   src={require('../media/flower.jpg')}
-                                  alt="Third slide"
+                                  alt="Fourteenth slide"
                                 />
                               <Carousel.Caption>
                                     <p>Fertile soil with Lemon, Coffee, Jackfruit, Pepper</p>
