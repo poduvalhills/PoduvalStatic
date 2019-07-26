@@ -9,6 +9,7 @@ import Home from './components/home/Home';
 import Amenities from './components/amenities/Amenities';
 import Plot from './components/plot/Plot';
 //import Test from './components/test/Test';
+import Videogallery from './components/video/Videogallery';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ class App extends React.Component{
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={Hero} /> 
             <Route exact path="/gallery" component={Gallery} />      
+            <Route exact path="/video" component={Videogallery} />
             <Route exact path="/maps" component={Maps} />
             <Route exact path="/amenities" component={Amenities} />
             <Route exact path="/plot" component={Plot} />

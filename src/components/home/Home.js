@@ -3,6 +3,7 @@ import Hero from '../hero/Hero';
 import Gallery from '../gallery/Gallery';
 import Maps from '../maps/Maps';
 import Amenities from '../amenities/Amenities';
+import Videogallery from '../video/Videogallery';
 import Plot from '../plot/Plot';
 
 class Home extends React.Component{
@@ -11,6 +12,7 @@ class Home extends React.Component{
             <div>
                 <Hero />
                 <Gallery />
+                <Videogallery />
                 <Maps />
                 <Amenities />
                 <Plot />
