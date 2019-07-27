@@ -5,7 +5,7 @@ import Flip from 'react-reveal/Flip';
 class Amenities extends React.Component{
     render(){
         return(
-            <div id="amenities">
+            <div className="container-fluid" id="amenities">
                 <div className="row">
                     <Flip left>
                         <div className="col-md-3">

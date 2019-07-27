@@ -5,7 +5,7 @@ class Videogallery extends React.Component{
     render(){
         return(
             <div>
-                <div className="row" id="video">
+                <div className="row" id="videos">
                     <Fade left>
                         <div className="col-md-4 text-center">
                             <video width="400" controls>

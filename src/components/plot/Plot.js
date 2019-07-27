@@ -23,7 +23,7 @@ class Plot extends React.Component{
     //}
     render(){
         return(  
-            <div id="plot">
+            <div className="container-fluid" id="plot">
                 <Slide left>
                 <div className="row">
                     <div className="col-md-6 text-center">

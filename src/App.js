@@ -25,7 +25,7 @@ class App extends React.Component{
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={Hero} /> 
             <Route exact path="/gallery" component={Gallery} />      
-            <Route exact path="/video" component={Videogallery} />
+            <Route exact path="/videos" component={Videogallery} />
             <Route exact path="/maps" component={Maps} />
             <Route exact path="/amenities" component={Amenities} />
             <Route exact path="/plot" component={Plot} />

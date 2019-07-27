@@ -26,7 +26,7 @@ class Navigation extends React.Component{
                             <Nav className="mr-auto topnav" id="myTopnav">
                                 <NavLink exact to="/about#about">About</NavLink>
                                 <NavLink exact to="/gallery#gallery">Gallery</NavLink>
-                                <NavLink exact to="/video#video">Videogallery</NavLink>
+                                <NavLink exact to="/videos#videos">Videos</NavLink>
                                 <NavLink exact to="/maps#maps">Maps</NavLink>
                                 <NavLink exact to="/amenities#amenities">Amenities</NavLink>
                                 <NavLink exact to="/plot#plot">Plot</NavLink>
