@@ -8,7 +8,7 @@ import Zoom from 'react-reveal/Zoom';
 class Gallery extends React.Component{
     render(){
         return(
-            <div className="container-fluid">
+            <div id="gallery">
               <Zoom right>
                 <div className="row">
                     <div className="col-md-12">

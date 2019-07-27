@@ -1,15 +1,15 @@
 import React from 'react';
 import './navigation.css';
 import { Navbar,Nav } from 'react-bootstrap';
-//import { NavHashLink as NavLink } from 'react-router-hash-link';
-import { NavLink } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+//import { NavLink } from 'react-router-dom';
 import Jump from 'react-reveal/Jump';
 
 class Navigation extends React.Component{
     
     render(){
         return( 
-            <div className="container-fluid" style={{
+            <div style={{
                 backgroundImage: `url(${require('../media/hillview.jpg')})`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
@@ -24,13 +24,13 @@ class Navigation extends React.Component{
                           <Navbar.Toggle aria-controls="basic-navbar-nav" />
                           <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto topnav" id="myTopnav">
-                                <NavLink exact to="/about">About</NavLink>
-                                <NavLink exact to="/gallery">Gallery</NavLink>
-                                <NavLink exact to="/video">Videogallery</NavLink>
-                                <NavLink exact to="/maps">Maps</NavLink>
-                                <NavLink exact to="/amenities">Amenities</NavLink>
-                                <NavLink exact to="/plot">Plot</NavLink>
-                                <NavLink exact to="/contact">Contact</NavLink>
+                                <NavLink exact to="/about#about">About</NavLink>
+                                <NavLink exact to="/gallery#gallery">Gallery</NavLink>
+                                <NavLink exact to="/video#video">Videogallery</NavLink>
+                                <NavLink exact to="/maps#maps">Maps</NavLink>
+                                <NavLink exact to="/amenities#amenities">Amenities</NavLink>
+                                <NavLink exact to="/plot#plot">Plot</NavLink>
+                                <NavLink exact to="/contact#contact">Contact</NavLink>
                             </Nav>
                           </Navbar.Collapse>
                         </Navbar>

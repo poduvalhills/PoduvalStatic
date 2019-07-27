@@ -6,7 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 class Hero extends React.Component{
     render(){
         return(
-            <div className="container">
+            <div id="about">
                 <Bounce right>
                 <div className="row">
                     <div className="col-md-6 hotspot-wrapper" style={{overflow: 'hidden'}} ><br /> <br />

@@ -6,7 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 class Maps extends React.Component{
     render(){
         return(
-            <div className="container">
+            <div id="maps">
                 <Bounce left>
                 <div className="row">
                     <div className="col-md-6 img-fluid">
