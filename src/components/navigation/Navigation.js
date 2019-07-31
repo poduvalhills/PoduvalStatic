@@ -10,7 +10,7 @@ class Navigation extends React.Component{
     render(){
         return( 
             <div style={{
-                backgroundImage: `url(${require('../media/hillview.jpg')})`,
+                backgroundImage: `url(${require('../media/sunkissed.jpg')})`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat center center fixed',

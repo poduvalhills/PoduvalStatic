@@ -10,7 +10,7 @@ class Hero extends React.Component{
                 <Bounce right>
                 <div className="row">
                     <div className="col-md-6 hotspot-wrapper" style={{overflow: 'hidden'}} ><br /> <br />
-                        <img src={require('../media/heroalt.jpg')} className="img-fluid" alt="hero" />
+                        <img src={require('../media/hero.jpg')} className="img-fluid" alt="hero" />
                     </div>
                     <div className="col-md-6"><br /><br />
                         <h2 className=" text-center">Poduval Hills</h2><br/>
