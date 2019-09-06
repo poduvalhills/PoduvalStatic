@@ -26,7 +26,7 @@ class Maps extends React.Component{
                             </Card.Text>
                             <Card.Title className="text-center">Railways</Card.Title>
                             <Card.Text>
-                              The Closest Railway station is in Dindigul which has direct trains from Chennai
+                              The closest Railway station is in Dindigul which has direct trains from Chennai
                             </Card.Text>
                             <Card.Title className="text-center">Airways</Card.Title>
                             <Card.Text>
