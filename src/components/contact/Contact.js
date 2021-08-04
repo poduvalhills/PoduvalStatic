@@ -13,8 +13,7 @@ class Contact extends React.Component{
                         <div className="col-md-12 text-center">
                             <h5>Contact</h5><br/>
                             <h6>Poduval - <MdPhoneInTalk /> 9884478888 </h6> 
-                            <h6>Muthuswamy Chandran - <MdPhoneInTalk /> 9042058212 </h6>
-                            <h6>Suresh Chandra Menon - <MdPhoneInTalk /> 9840274281 </h6>
+                            <h6>Srikanth- <MdPhoneInTalk /> 9884073394 </h6>
                             <h6>E-Mail - <a href="mailto:poduvalhills@gmail.com" style={{color: 'black'}}><MdEmail /></a> poduvalhills@gmail.com </h6><br/>   
                             <small><center> &copy; 2019 </center></small>
                         </div>
