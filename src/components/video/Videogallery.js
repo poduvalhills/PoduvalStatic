@@ -9,7 +9,7 @@ class Videogallery extends React.Component{
                     <Fade left>
                         <div className="col-md-4 text-center">
                             <video width="400" controls>
-                              <source src={require('../media/checkdam.mp4')} type="video/mp4" />
+                              <source src={require('/media/checkdam.mp4')} type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>
                         </div>
@@ -17,7 +17,7 @@ class Videogallery extends React.Component{
                     <Fade left>
                         <div className="col-md-4 text-center">
                             <video width="400" controls>
-                              <source src={require('../media/hills.mp4')} type="video/mp4" />
+                              <source src={require('/media/hills.mp4')} type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>
                         </div>
@@ -25,7 +25,7 @@ class Videogallery extends React.Component{
                     <Fade left>
                         <div className="col-md-4 text-center">
                             <video width="400" controls>
-                              <source src={require('../media/views.mp4')} type="video/mp4" />
+                              <source src={require('/media/views.mp4')} type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>
                         </div>
