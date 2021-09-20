@@ -10,7 +10,6 @@ class Videogallery extends React.Component{
                         <div className="col-md-4 text-center">
                             <video width="400" controls style="display:none">                              
                               <source src={require('../media/checkdam.mp4')} type="video/mp4" />
-                              <source src="https://www.www.poduvalhills.com/static/media/checkdam.mp4" type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>                            
                         </div>
@@ -19,7 +18,6 @@ class Videogallery extends React.Component{
                         <div className="col-md-4 text-center">
                             <video width="400" controls style="display:none">                              
                               <source src={require('../media/hills.mp4')} type="video/mp4" />
-                              <source src="https://www.www.poduvalhills.com/static/media/hills.mp4" type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>                            
                         </div>
@@ -28,7 +26,6 @@ class Videogallery extends React.Component{
                         <div className="col-md-4 text-center">
                             <video width="400" controls style="display:none">                              
                               <source src={require('../media/views.mp4')} type="video/mp4" />
-                              <source src="https://www.www.poduvalhills.com/static/media/views.mp4" type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>
                         </div>
