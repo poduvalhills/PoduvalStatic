@@ -8,24 +8,36 @@ class Videogallery extends React.Component{
                 <div className="row" id="videos">
                     <Fade left>
                         <div className="col-md-4 text-center">
-                            <video width="400" controls>                              
+                            <video width="400" controls style="display:none">                              
                               <source src={require('../media/checkdam.mp4')} type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>
-                        </div>
-                    </Fade>
-                    <Fade left>
-                        <div className="col-md-4 text-center">
                             <video width="400" controls>                              
-                              <source src={require('../media/hills.mp4')} type="video/mp4" />
+                              <source src="https://www.www.poduvalhills.com/static/media/checkdam.mp4" type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>
                         </div>
                     </Fade>
                     <Fade left>
                         <div className="col-md-4 text-center">
-                            <video width="400" controls>                              
+                            <video width="400" controls style="display:none">                              
+                              <source src={require('../media/hills.mp4')} type="video/mp4" />
+                              Your browser does not support HTML5 video.
+                            </video>
+                            <video width="400" controls style="display:none">                              
+                              <source src="https://www.www.poduvalhills.com/static/media/hills.mp4" type="video/mp4" />
+                              Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+                    </Fade>
+                    <Fade left>
+                        <div className="col-md-4 text-center">
+                            <video width="400" controls style="display:none">                              
                               <source src={require('../media/views.mp4')} type="video/mp4" />
+                              Your browser does not support HTML5 video.
+                            </video>
+                            <video width="400" controls style="display:none">                              
+                              <source src="https://www.www.poduvalhills.com/static/media/views.mp4" type="video/mp4" />
                               Your browser does not support HTML5 video.
                             </video>
                         </div>
