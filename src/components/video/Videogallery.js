@@ -1,5 +1,5 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
 
 class Videogallery extends React.Component{
     render(){
@@ -7,17 +7,17 @@ class Videogallery extends React.Component{
             <div>
                 <div className="row" id="videos">
                     <div className="col-md-4 text-center">
-                            <video width="400" controls style="display:none">                              
+                            <video width="400" controls>                              
                               <source src={require('../media/checkdam.mp4')} type="video/mp4" />
                             </video>                            
                     </div>
                     <div className="col-md-4 text-center">
-                        <video width="400" controls style="display:none">                              
+                        <video width="400" controls>                              
                           <source src={require('../media/hills.mp4')} type="video/mp4" />
                         </video>                            
                     </div>
                     <div className="col-md-4 text-center">
-                        <video width="400" controls style="display:none">                              
+                        <video width="400" controls>                              
                           <source src={require('../media/views.mp4')} type="video/mp4" />
                         </video>
                     </div>
