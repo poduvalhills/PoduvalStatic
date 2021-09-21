@@ -6,29 +6,14 @@ class Videogallery extends React.Component{
         return(
             <div>
                 <div className="row" id="videos">
-                    <div className="col-md-4 text-center">
-                            <video width="400" controls style="display:none">                              
-                              <source src={require('../media/checkdam.mp4')} type="video/mp4" />
-                            </video>
-                            <video width="400" controls>                              
-                              <source src="https://www.maxsee.in/poduvalhills/checkdam.mp4" type="video/mp4" />
-                            </video>                                                     
+                    <div className="col-md-4 text-center">            
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/0Xomygmb3U0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                  
                     </div>
                     <div className="col-md-4 text-center">
-                        <video width="400" controls style="display:none">                              
-                          <source src={require('../media/hills.mp4')} type="video/mp4" />
-                        </video>  
-                        <video width="400" controls>                              
-                           <source src="https://www.maxsee.in/poduvalhills/hills.mp4" type="video/mp4" />
-                        </video> 
+                        
                     </div>
                     <div className="col-md-4 text-center">
-                        <video width="400" controls style="display:none">                              
-                          <source src={require('../media/views.mp4')} type="video/mp4" />
-                        </video>
-                        <video width="400" controls>                              
-                           <source src="https://www.maxsee.in/poduvalhills/views.mp4" type="video/mp4" />
-                        </video> 
+                         
                     </div>
                 </div>
                 <div className="row">
