@@ -7,7 +7,9 @@ class Videogallery extends React.Component{
             <div>
                 <div className="row" id="videos">
                     <div className="col-md-4 text-center">            
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/0Xomygmb3U0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                                  
+                               <video width="400" controls>                              
+                              <source src="https://www.maxsee.in/poduvalhills/checkdam.mp4" type="video/mp4" />
+                            </video>
                     </div>
                     <div className="col-md-4 text-center">
                         
