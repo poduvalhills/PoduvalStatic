@@ -7,17 +7,17 @@ class Videogallery extends React.Component{
             <div>
                 <div className="row" id="videos">
                     <div className="col-md-4 text-center">            
-                               <video width="400" controls>                              
+                               <video width="400" height="250" controls>                              
                               <source src="https://www.maxsee.in/poduvalhills/1.mp4" type="video/mp4" />
                             </video>
                     </div>
                     <div className="col-md-4 text-center">
-                        <video width="400" controls>                              
+                        <video width="400" height="250" controls>                              
                            <source src="https://www.maxsee.in/poduvalhills/2.mp4" type="video/mp4" />
                         </video>
                     </div>
                     <div className="col-md-4 text-center">
-                         <video width="400" controls>                              
+                         <video width="400" height="250" controls>                              
                            <source src="https://www.maxsee.in/poduvalhills/3.mp4" type="video/mp4" />
                         </video>
                     </div>
