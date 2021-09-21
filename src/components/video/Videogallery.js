@@ -6,30 +6,27 @@ class Videogallery extends React.Component{
         return(
             <div>
                 <div className="row" id="videos">
-                    <Fade left>
-                        <div className="col-md-4 text-center">
-                            <video width="400" controls>
-                              <source src={require('../media/checkdam.mp4')} type="video/mp4" />
+                    <div className="col-md-4 text-center">
+                            <video width="400" controls style="display:none">                              
+                              /*<source src={require('../media/checkdam.mp4')} type="video/mp4" />*/
+                              <source src="https://www.maxsee.in/poduvalhills/checkdam.mp4" type="video/mp4" />
                               Your browser does not support HTML5 video.
-                            </video>
-                        </div>
-                    </Fade>
-                    <Fade left>
-                        <div className="col-md-4 text-center">
-                            <video width="400" controls>
-                              <source src={require('../media/hills.mp4')} type="video/mp4" />
-                              Your browser does not support HTML5 video.
-                            </video>
-                        </div>
-                    </Fade>
-                    <Fade left>
-                        <div className="col-md-4 text-center">
-                            <video width="400" controls>
-                              <source src={require('../media/views.mp4')} type="video/mp4" />
-                              Your browser does not support HTML5 video.
-                            </video>
-                        </div>
-                    </Fade>
+                            </video>                            
+                    </div>
+                    <div className="col-md-4 text-center">
+                        <video width="400" controls style="display:none">                              
+                          /*<source src={require('../media/hills.mp4')} type="video/mp4" />*/
+                          <source src="https://www.maxsee.in/poduvalhills/hills.mp4" type="video/mp4" />
+                          Your browser does not support HTML5 video.
+                        </video>                            
+                    </div>
+                    <div className="col-md-4 text-center">
+                        <video width="400" controls style="display:none">                              
+                          /*<source src={require('../media/views.mp4')} type="video/mp4" />*/
+                          <source src="https://www.maxsee.in/poduvalhills/views.mp4" type="video/mp4" />
+                          Your browser does not support HTML5 video.
+                        </video>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col-md-12">
