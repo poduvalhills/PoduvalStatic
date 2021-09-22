@@ -7,7 +7,9 @@
         left: 0%;
         right: 0%;
 }
-      
+.iiz__img {
+    max-width: 100%;
+}      
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px){
         img{
