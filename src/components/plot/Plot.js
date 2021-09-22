@@ -30,7 +30,7 @@ class Plot extends React.Component{
                         {/*<figure onMouseMove={this.handleMouseMove} style={this.state}>
                             <img id="zoom" src={src} />
                         </figure>*/}
-                        <InnerImageZoom src={require('../media/plot.jpg')} />
+                        <InnerImageZoom src={require('../media/plot-resized.jpg')} />
                     </div>
                     <div className="col-md-6"><br />
                         <h3 className="text-center">Plot Description</h3><br />
